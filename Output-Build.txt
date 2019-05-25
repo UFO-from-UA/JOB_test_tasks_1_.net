@@ -1,0 +1,11 @@
+﻿1>------ Build started: Project: Main, Configuration: Debug Any CPU ------
+1>E:\яЯя\С++\Задание\FileToSQLLite_task\Main\App.xaml.cs(21,30,21,63): warning CS0618: 'ConfigurationSettings.AppSettings' is obsolete: 'This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings'
+1>E:\яЯя\С++\Задание\FileToSQLLite_task\Main\App.xaml.cs(104,27,104,60): warning CS0618: 'ConfigurationSettings.AppSettings' is obsolete: 'This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings'
+1>E:\яЯя\С++\Задание\FileToSQLLite_task\Main\MyEditor.xaml.cs(239,38,239,40): warning CS0168: The variable 'de' is declared but never used
+1>E:\яЯя\С++\Задание\FileToSQLLite_task\Main\MyEditor.xaml.cs(242,32,242,35): warning CS0168: The variable 'ioe' is declared but never used
+1>E:\яЯя\С++\Задание\FileToSQLLite_task\Main\App.xaml.cs(21,30,21,63): warning CS0618: 'ConfigurationSettings.AppSettings' is obsolete: 'This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings'
+1>E:\яЯя\С++\Задание\FileToSQLLite_task\Main\App.xaml.cs(104,27,104,60): warning CS0618: 'ConfigurationSettings.AppSettings' is obsolete: 'This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings'
+1>E:\яЯя\С++\Задание\FileToSQLLite_task\Main\MyEditor.xaml.cs(239,38,239,40): warning CS0168: The variable 'de' is declared but never used
+1>E:\яЯя\С++\Задание\FileToSQLLite_task\Main\MyEditor.xaml.cs(242,32,242,35): warning CS0168: The variable 'ioe' is declared but never used
+1>  Main -> E:\яЯя\С++\Задание\FileToSQLLite_task\Main\bin\Debug\Main.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

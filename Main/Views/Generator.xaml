@@ -1,0 +1,31 @@
+﻿<Window x:Class="Main.Views.Generator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Main.Views"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        MaxHeight="100" MaxWidth="450"
+        MinHeight="100" MinWidth="450"
+        Title="Generator" Height="100" Width="400">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush SpreadMethod="Reflect" StartPoint="0,0" EndPoint=".7,1">
+                <GradientStop Color="#008080" Offset="0"></GradientStop>
+                <GradientStop Color="#ffffff" Offset=".25"></GradientStop>
+                <GradientStop Color="#05c1ff" Offset=".5"></GradientStop>
+                <GradientStop Color="#ffffff" Offset=".75"></GradientStop>
+                <GradientStop Color="#005757" Offset="1"></GradientStop>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <DockPanel LastChildFill="True">
+            <Button DockPanel.Dock="Bottom" Height="20" Click="Button_Click" Margin="2" Width="100">OK </Button>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Label FontSize="16" >Enter count of row :</Label>
+                <TextBox Name="tb_count" MinWidth="150" Margin="5" FontSize="16" ToolTip="PressEnter" KeyDown="OK_KeyDown" MaxLength="2" ></TextBox>
+            </StackPanel>
+        </DockPanel>
+    </Grid>
+</Window>
